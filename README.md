@@ -56,12 +56,12 @@ This project is divided into several key phases:
     ```
 
 2.  **Create a virtual environment (recommended):**
-
-    ```bash
     python -m venv venv
-    source venv/bin/activate  # On macOS/Linux
-    venv\Scripts\activate  # On Windows
-    ```
+   # Activate the virtual environment
+   # For Windows:
+   venv\Scripts\activate
+   # For macOS/Linux:
+   source venv/bin/activate
 
 3.  **Install the required dependencies:**
 
@@ -74,20 +74,23 @@ This project is divided into several key phases:
     ```bash
     pip install pandas numpy matplotlib seaborn scikit-learn plotly scipy streamlit joblib
     ```
-
-4.  **Run the Jupyter Notebook:**
+    
+4.  ***Navigate to project directory**
+    cd Student_Performance_Prediction
+    
+5.  **Run the Jupyter Notebook:**
 
     ```bash
     jupyter notebook studentperformace.ipynb
     ```
 
-5.  **To train and save the model run:**
+6.  **To train and save the model run:**
 
     ```bash
     python TrainAndSaveModels.py
     ```
 
-6.  **To run the Streamlit dashboard:**
+7.  **To run the Streamlit dashboard:**
 
     ```bash
     streamlit run finalapp.py
