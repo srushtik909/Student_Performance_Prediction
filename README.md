@@ -84,7 +84,7 @@ This project is divided into several key phases:
 5.  **To train and save the model run:**
 
     ```bash
-    python train_and_save_model.py
+    python TrainAndSaveModels.py
     ```
 
 6.  **To run the Streamlit dashboard:**
